@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="app_name">LinkingBeaconDemo</string>
+
+    <string name="pairing_demo">情報取得（ペアリング）</string>
+
+    <string name="led_demo">LED点灯</string>
+    <string name="vibration_demo">バイブレーション</string>
+    <string name="accel_demo">加速度</string>
+    <string name="angular_demo">ジャイロ</string>
+    <string name="orient_demo">方位（地磁気）</string>
+    <string name="button_demo">ボタンID</string>
+    <string name="device_info">デバイス情報</string>
+
+    <string name="beacon_demo">情報取得（ビーコン）</string>
+
+    <string name="mode_demo">スキャンモード変更</string>
+    <string name="start_end_demo">汎用\n（ID:9〜13）</string>
+
+    <string name="id_demo">ビーコンID</string>
+    <string name="temp_demo">気温\n（ID:1）</string>
+    <string name="humid_demo">湿度\n（ID:2）</string>
+    <string name="pressure_demo">気圧\n（ID:3）</string>
+    <string name="open_close_demo">開閉\n（ID:6）</string>
+    <string name="human_demo">人感\n（ID:7）</string>
+    <string name="move_demo">振動\n（ID:8）</string>
+
+    <!-- get device info demo strings -->
+    <string name="device_info_text">ペアリングしているデバイスの情報を取得するデモです。</string>
+    <string name="info_name">デバイス名</string>
+    <string name="info_device_id">デバイスID</string>
+    <string name="info_uid">デバイス固有ID</string>
+    <string name="info_bd_address">BDアドレス</string>
+    <string name="info_state">接続状態</string>
+    <string name="info_feature">機器能力</string>
+    <string name="info_sensor">拡張センサタイプ</string>
+    <string name="info_illumination">イルミネーション情報(Byte[]->String(UTF-8))</string>
+    <string name="info_duration">通知継続時間情報(Byte[]->String(UTF-8))</string>
+    <string name="info_vibration">バイブレーション情報(Byte[]->String(UTF-8))</string>
+
+    <!-- led demo strings -->
+    <string name="led_text">開発者ボードの3色のLEDを点灯させるデモです。</string>
+    <string name="led_red">LED点灯（RED）</string>
+    <string name="led_green">LED点灯（GREEN）</string>
+    <string name="led_orange">LED点灯（ORANGE）</string>
+    <string name="lighting_log">その他通知によるデバイス点灯を行いました</string>
+
+    <!-- vibrator demo strings -->
+    <string name="vibration_text">開発者ボードを色々なパターンで振動させるデモです。</string>
+    <string name="vibration_log">その他通知によるデバイス鳴動（バイブ）を行いました</string>
+
+    <!-- pairing sensor demo strings -->
+    <string name="pairing_sensor_text">ペアリングしているデバイスのセンサ情報をリアルタイム表示します。</string>
+    <string name="sensor_log_title">センサーログ</string>
+
+    <!-- beacon scan demo strings -->
+    <string name="scan_text">ビーコン検出結果をリアルタイム表示します。</string>
+    <string name="scan_sub_text">フィルタ機能を使用することで、新規に検出するビーコンを絞ることができます。</string>
+    <string name="beacon_scan">ビーコンスキャン</string>
+    <string name="id_filtering">デバイスIDでフィルタ</string>
+    <string name="filter">フィルタ</string>
+    <string name="time_linking">表示 : Linkingアプリ受信時刻</string>
+    <string name="time_app">表示 : LinkingBeaconDemo受信時刻</string>
+    <string name="check_filter">フィルタリングしたいIDを入力してください</string>
+    <string name="scan_result">スキャン結果</string>
+
+    <!--  Broadcast送信 -->
+    <string name="regist">登録</string>
+    <string name="connect">接続</string>
+    <string name="send">送信</string>
+    <string name="get">取得</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="show_notified_data">通知データ表示</string>
+    <string name="clear">クリア</string>
+
+    <!-- ビーコン関連 -->
+    <string name="scan_mode_none">指定なし</string>
+    <string name="scan_mode_low_letency">高精度</string>
+    <string name="scan_mode_balanced">標準</string>
+    <string name="scan_mode_low_power">省電力</string>
+    <string name="mode_checkbox">ビーコン受信結果をファイルに出力</string>
+    <string name="check_sid">9〜13の数値を入力してください。</string>
+    <string name="battery_demo">電池残量\n（ID:4_1,ID:4_2）</string>
+    <string name="id5_demo">ボタン識別子\n（ID:5）</string>
+
+</resources>
+

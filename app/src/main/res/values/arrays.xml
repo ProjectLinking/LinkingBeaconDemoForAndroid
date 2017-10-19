@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 NTT DOCOMO, INC. All Rights Reserved.
+-->
+<resources>
+
+    <string-array name="scanState">
+        <item >スキャン要求有効</item>
+        <item >スキャン要求無効</item>
+    </string-array>
+
+    <string-array name="detail">
+        <item >OK</item>
+        <item >タイムアウト</item>
+        <item >meta情報記載無し</item>
+        <item >Bluetooth無効</item>
+        <item >SDA無効</item>
+        <item >Permission未許諾</item>
+        <item >位置情報無効</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item >近い</item>
+        <item >やや近い</item>
+        <item >遠い</item>
+    </string-array>
+
+</resources>
